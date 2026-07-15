@@ -1,0 +1,25 @@
+PROJECT DEMONSTRATION
+8.1 Demo Scenarios
+Scenario 1: Very High HDI Prediction
+
+Enter: Life Expectancy 80, Mean Schooling 14, Expected 16, GNI 50000
+
+Result: HDI > 0.800 (Very High)
+
+Scenario 2: High HDI Prediction
+
+Enter: Life Expectancy 72, Mean Schooling 10, Expected 12, GNI 25000
+
+Result: HDI 0.700-0.799 (High)
+
+Scenario 3: Medium HDI Prediction
+
+Enter: Life Expectancy 65, Mean Schooling 7, Expected 8, GNI 10000
+
+Result: HDI 0.550-0.699 (Medium)
+
+Scenario 4: Low HDI Prediction
+
+Enter: Life Expectancy 55, Mean Schooling 3, Expected 4, GNI 3000
+
+Result: HDI < 0.550 (Low)

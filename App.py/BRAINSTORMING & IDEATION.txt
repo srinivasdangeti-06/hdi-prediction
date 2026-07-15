@@ -1,0 +1,18 @@
+BRAINSTORMING & IDEATION
+1.1 Brainstorming Session
+Project: HDI Predictor - Human Development Index Predictor
+
+Date: July 2026
+
+
+Brainstorming Output:
+
+Idea ID	Idea Description	Category	Impact (1-10)	Feasibility (1-10)
+IDEA-01	HDI Score Prediction using ML	Prediction	9	8
+IDEA-02	Country-wise Comparison Dashboard	Visualization	8	7
+IDEA-03	Real-time HDI Monitoring System	Monitoring	7	5
+IDEA-04	AI-powered Development Recommendations	Advisory	7	6
+IDEA-05	Interactive Data Visualization Tool	Visualization	8	7
+IDEA-06	Mobile App for HDI Tracking	Mobile	6	4
+IDEA-07	API for HDI Predictions	API	6	6
+IDEA-08	Government Data Integration	Integration	7	5

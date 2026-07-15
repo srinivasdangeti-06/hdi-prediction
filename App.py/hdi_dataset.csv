@@ -1,0 +1,31 @@
+Country,Life_Expectancy,Mean_Years_Schooling,Expected_Years_Schooling,GNI_per_Capita,HDI_Score,HDI_Category
+Norway,82.3,12.6,18.1,68521,0.957,Very High
+Switzerland,83.4,13.4,16.3,64463,0.955,Very High
+Australia,83.4,13.3,22.9,46143,0.946,Very High
+Germany,81.3,14.2,17.5,51567,0.947,Very High
+USA,79.1,13.4,16.8,54923,0.926,Very High
+UK,81.6,13.3,17.8,43096,0.932,Very High
+Canada,82.2,13.4,16.4,47037,0.929,Very High
+Japan,84.4,13.0,15.3,40809,0.925,Very High
+France,82.7,11.6,16.2,42956,0.903,Very High
+Italy,83.5,10.6,16.5,38119,0.895,Very High
+Spain,83.4,10.4,18.2,36623,0.904,Very High
+Singapore,84.9,11.4,16.8,91187,0.939,Very High
+India,69.4,6.5,12.3,6810,0.645,Medium
+China,77.1,7.8,14.2,17312,0.768,High
+Brazil,75.9,8.6,15.4,15017,0.765,High
+Mexico,75.0,8.9,14.5,19482,0.779,High
+South Africa,64.1,9.8,13.8,12637,0.709,High
+Indonesia,71.7,8.2,13.2,11268,0.718,High
+Pakistan,67.3,4.6,8.6,5120,0.557,Medium
+Bangladesh,72.3,5.9,10.4,4953,0.633,Medium
+Nigeria,54.3,4.9,9.0,5270,0.539,Low
+Ethiopia,66.2,2.7,8.9,2364,0.485,Low
+Kenya,66.9,5.4,10.3,4205,0.601,Medium
+Egypt,71.8,7.2,13.4,11637,0.731,High
+Turkey,77.6,8.4,15.8,27762,0.82,Very High
+Russia,72.6,12.0,15.4,26190,0.824,Very High
+Argentina,76.6,10.9,17.1,20198,0.845,Very High
+Saudi Arabia,74.7,10.3,15.1,50465,0.854,Very High
+Thailand,77.2,7.5,14.3,16707,0.777,High
+Vietnam,75.5,8.5,12.7,8042,0.704,High

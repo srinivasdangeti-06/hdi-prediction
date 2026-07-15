@@ -1,0 +1,17 @@
+PROJECT TESTING
+6.1 Test Cases
+Test ID	Test Scenario	Test Steps	Expected Result	Status
+TC-001	Home Page Load	Navigate to URL	Home page displays	✅ Pass
+TC-002	Navigation	Click all links	All pages navigate	✅ Pass
+TC-003	Valid Prediction	Enter valid values	HDI score displayed	✅ Pass
+TC-004	Invalid Input	Enter negative values	Error message	✅ Pass
+TC-005	Quick Test	Click test buttons	Values filled	✅ Pass
+TC-006	API Endpoint	POST to /api/predict	JSON response	✅ Pass
+
+
+6.2 Bug Tracking
+Bug ID	Description	Severity	Status
+BG-001	Slow page load	Low	Fixed
+BG-002	Visualizations not loading	Medium	Fixed
+BG-003	Form validation missing	High	Fixed
+BG-004	Mobile responsiveness	Medium	Fixed

@@ -1,0 +1,62 @@
+ PROJECT DESIGN PHASE
+3.1 Problem-Solution Fit Template
+Aspect	Description
+Customer Segment	Government policymakers, researchers, development organizations
+Customer Problem	Lack of accessible HDI prediction tools
+Alternative Solutions	Manual analysis, UNDP reports, static datasets
+Value Proposition	Web-based ML-powered HDI prediction tool
+Solution Features	ML prediction, visualizations, country selection, API
+Success Metrics	R² > 0.85, user satisfaction > 80%
+
+
+3.2 Proposed Solution Template
+S.No	Parameter	Description
+1	Problem Statement	Lack of accessible HDI prediction tools
+2	Idea/Solution	Flask web app with Linear Regression
+3	Novelty	ML + HDI analytics + interactive UI
+4	Social Impact	Data-driven policy decisions, SDG support
+5	Business Model	Freemium, institutional licensing
+6	Scalability	Cloud deployment, concurrent users
+
+
+3.3 Solution Architecture Diagram
+text
+┌─────────────────────────────────────────────────────────────────┐
+│                         USER INTERFACE                          │
+│                    (HTML, CSS, Bootstrap)                        │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                        FLASK BACKEND                            │
+│                    (Python Web Framework)                        │
+│                                                                  │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐            │
+│  │   Routes    │  │  Prediction │  │   Model     │            │
+│  │  (/) (/predict)│  │  Engine    │  │   Loading   │            │
+│  └─────────────┘  └─────────────┘  └─────────────┘            │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                      MACHINE LEARNING MODEL                      │
+│                                                                  │
+│  ┌──────────────────────────────────────────────────────────┐   │
+│  │            Linear Regression Model                       │   │
+│  │  (Trained on HDI Dataset with 4 features)               │   │
+│  │  - Life Expectancy                                      │   │
+│  │  - Mean Years of Schooling                              │   │
+│  │  - Expected Years of Schooling                          │   │
+│  │  - GNI per Capita                                      │   │
+│  └──────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────┘
+
+
+3.4 Technology Stack
+Component	Technology	Purpose
+Frontend	HTML5, CSS3, Bootstrap 5	User Interface
+Backend	Flask (Python)	Web Framework
+ML Model	Scikit-learn (Linear Regression)	Prediction
+Data Processing	Pandas, NumPy	Data Handling
+Visualization	Matplotlib, Seaborn	Charts
+Serialization	Pickle	Model Storage
